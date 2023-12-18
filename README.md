@@ -1,6 +1,8 @@
 ## Tube Archivist emby Integration
 Import your Tube Archivist media folder into emby
 
+![home screenshot](assets/screenshot-home.png?raw=true "emby Home")
+
 This repo looks for regular contributors. If this is a useful integration, consider improving upon it.   
 
 This requires Tube Archivist v0.4.4 or later for API compatibility.
