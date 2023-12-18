@@ -1,0 +1,21 @@
+version: '3.3'
+
+services:
+  tubearchivist-emby:
+    restart: always
+    build: .
+    container_name: tubearchivist-emby
+    environment:
+      - TA_URL=http://ta.lab
+      - TA_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+      - JF_URL=http://emby.lab
+      - JF_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+      - JF_FOLDER=youTube_tubearchivist
+    volumes:
+      - ./logs:/app/logs
+      - /usr/share/zoneinfo/Asia/Shanghai:/etc/localtime
+      - /youTube_tubearchivist:/youtube  # matching youtube volume as in Tube Archivist，volumes mount point must to be youtube
+    ports:
+      - 8002:8001
+    expose:
+      - "8001"
