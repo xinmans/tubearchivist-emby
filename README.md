@@ -5,7 +5,7 @@ This repo looks for regular contributors. If this is a useful integration, consi
 
 This requires Tube Archivist v0.4.4 or later for API compatibility.
 
-based on tubearchivist-emby https://github.com/CommanderRedYT/tubearchivist-emby
+based on tubearchivist-jf https://github.com/CommanderRedYT/tubearchivist-jf
 ## Core functionality
 - Import each YouTube channel as a TV Show
 - Each year will become a Season of that Show
