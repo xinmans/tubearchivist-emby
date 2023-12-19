@@ -42,7 +42,7 @@ Take a look at the example docker-compose.yml provided.
 
 2. Let emby complete the library scan
     - This works best if emby has found all media files and Tube Archivist isn't currently downloading.
-    - At first, this will add all channels as a Show with a single Season 1.
+    - At first, this will add all channels as a Show with a single Season Unknown.
     - Then this script will populate the metadata.
 
 3. Backdrops
