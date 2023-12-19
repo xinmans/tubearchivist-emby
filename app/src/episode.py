@@ -56,7 +56,7 @@ class Episode:
             "ParentIndexNumber": published_date.year,
             "PremiereDate": published_date.isoformat(),
             "Overview": self._get_desc(ta_video),
-            "Studios": [{"Name": "YouTubeAchivist"}],
+            "Studios": [{"Name": "YouTube"}],
         }
         logging.info(f"data: {data}")
         path: str = f"Items/{self.jf_id}"

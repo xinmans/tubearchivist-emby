@@ -79,9 +79,9 @@ class Jellyfin:
         """ping the server"""
         response = self.get("Users")
         if not response:
-            raise ConnectionError("failed to connect to jellyfin")
+            raise ConnectionError("failed to connect to emby")
 
-        print("[connection] verified jellyfin connection")
+        print("[connection] verified emby connection")
 
 
 class TubeArchivist:

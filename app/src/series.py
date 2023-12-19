@@ -78,7 +78,7 @@ class Library:
         folders: dict = Jellyfin().get("Library/MediaFolders")
         #logging.info(f"folders: {folders}")
         for folder in folders["Items"]:
-            if folder.get("Name") == "YouTubeAchivist":
+            if folder.get("Name") == "YouTube":
                 logging.info(f"find youtube: {folder}")
                 return folder["Id"]
 
